@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block{
+    padding: 50px;
+    text-align: center;
+
+}
+
+.container{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+   
+    gap: 20px;
+}
+
+.card p{
+    color: #696161;
+}
+.card img{
+    width: 100%;
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    padding: 0px 0px 20px 0px;
+    background-color: whitesmoke;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.box{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+
+.container button{
+    background-color: #373737;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: -200px;
+    transition: all .8s ease;
+
+}
+.container span{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: -200px;
+    top: -10px;
+    transition: all .8s ease;
+
+}
+
+
+.card:hover span{
+    top: 0px;
+    right: 0px;
+}
+.card:hover button{
+    bottom: 0px;
+    left: 0px;
+}
+.navbar{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+.a{
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    font-size: 25px;
+   
+}
+
+.navbar img{
+    position: absolute;
+    width: 58px;
+}
+
+.navbar p{
+    display: flex;
+    gap: 20px;
+  color: rgb(94, 94, 94);
+  cursor: pointer;
+}
+p b{
+    color: black;
+}
+
+.lop{
+    border: 2px solid black;
+    width: 24%;
+    display: flex;
+}
+.lop img{
+left: 230px;
+}
+.navbar input{
+    width: 300px;
+    padding: 17px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.navbar p:hover {
+    color: black;
+    font-weight: 900;
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 2px;
+}
